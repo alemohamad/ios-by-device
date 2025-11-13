@@ -203,6 +203,7 @@ a:hover {
 
   .clear-grid-space {
     min-width: 220px;
+    position: static;
   }
 
   .device-info {
