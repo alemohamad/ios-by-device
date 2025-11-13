@@ -157,6 +157,7 @@ a:hover {
 }
 
 .footer {
+  z-index: 20;
   -webkit-backdrop-filter: saturate(180%) blur(12px);
   backdrop-filter: saturate(180%) blur(12px);
   background-color: #fffc;
