@@ -82,7 +82,7 @@ function generateHTML() {
   <meta content="Find the iOS and iPadOS versions supported by any iPhone or iPad — fast and easy." name="description">
   <meta content="iOS by Device" property="og:title">
   <meta content="Find the iOS and iPadOS versions supported by any iPhone or iPad — fast and easy." property="og:description">
-  <meta content="https://iosbydevice.info/docs/images/iOS-by-Device.png" property="og:image">
+  <meta content="https://iosbydevice.info/images/iOS-by-Device.png" property="og:image">
   <meta content="iOS by Device" property="twitter:title">
   <meta content="Find the iOS and iPadOS versions supported by any iPhone or iPad — fast and easy." property="twitter:description">
   <meta property="og:type" content="website">
