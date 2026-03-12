@@ -104,6 +104,32 @@
       "devices": [
         {
           "names": [
+            "iPhone 17e"
+          ],
+          "support": [
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
             "iPhone 17 Pro",
             "iPhone 17 Pro Max"
           ],
@@ -131,7 +157,7 @@
         },
         {
           "names": [
-            "iPhone 17"
+            "iPhone Air"
           ],
           "support": [
             "supported",
@@ -157,7 +183,7 @@
         },
         {
           "names": [
-            "iPhone Air"
+            "iPhone 17"
           ],
           "support": [
             "supported",
@@ -1097,6 +1123,54 @@
         }
       ],
       "devices": [
+        {
+          "names": [
+            "iPad Air 13″ (M4)"
+          ],
+          "support": [
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Air 11″ (M4)"
+          ],
+          "support": [
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
         {
           "names": [
             "iPad Pro 13″ (M5)"
