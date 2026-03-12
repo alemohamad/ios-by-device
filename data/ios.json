@@ -1,0 +1,2421 @@
+{
+  "sections": [
+    {
+      "name": "iPhone",
+      "gridClass": "version-grid-ios",
+      "gridColumns": 21,
+      "osVersions": [
+        {
+          "name": "iOS 26",
+          "image": "iOS_26.png",
+          "year": 2025
+        },
+        {
+          "name": "iOS 18",
+          "image": "iOS_18.png",
+          "year": 2024
+        },
+        {
+          "name": "iOS 17",
+          "image": "iOS_17.png",
+          "year": 2023
+        },
+        {
+          "name": "iOS 16",
+          "image": "iOS_16.png",
+          "year": 2022
+        },
+        {
+          "name": "iOS 15",
+          "image": "iOS_15.png",
+          "year": 2021
+        },
+        {
+          "name": "iOS 14",
+          "image": "iOS_14.png",
+          "year": 2020
+        },
+        {
+          "name": "iOS 13",
+          "image": "iOS_13.png",
+          "year": 2019
+        },
+        {
+          "name": "iOS 12",
+          "image": "iOS_12.png",
+          "year": 2018
+        },
+        {
+          "name": "iOS 11",
+          "image": "iOS_11.png",
+          "year": 2017
+        },
+        {
+          "name": "iOS 10",
+          "image": "iOS_10.png",
+          "year": 2016
+        },
+        {
+          "name": "iOS 9",
+          "image": "iOS_9.png",
+          "year": 2015
+        },
+        {
+          "name": "iOS 8",
+          "image": "iOS_8.png",
+          "year": 2014
+        },
+        {
+          "name": "iOS 7",
+          "image": "iOS_7.png",
+          "year": 2013
+        },
+        {
+          "name": "iOS 6",
+          "image": "iOS_6.png",
+          "year": 2012
+        },
+        {
+          "name": "iOS 5",
+          "image": "iOS_5.png",
+          "year": 2011
+        },
+        {
+          "name": "iOS 4",
+          "image": "iOS_4.png",
+          "year": 2010
+        },
+        {
+          "name": "iPhoneOS 3",
+          "image": "iPhone_OS_3.png",
+          "year": 2009
+        },
+        {
+          "name": "iPhoneOS 2",
+          "image": "iPhone_OS_2.png",
+          "year": 2008
+        },
+        {
+          "name": "iPhoneOS",
+          "image": "iPhone_OS_1.png",
+          "year": 2007
+        }
+      ],
+      "devices": [
+        {
+          "names": [
+            "iPhone 17 Pro",
+            "iPhone 17 Pro Max"
+          ],
+          "support": [
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 17"
+          ],
+          "support": [
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone Air"
+          ],
+          "support": [
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 16e"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 16 Pro",
+            "iPhone 16 Pro Max"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 16",
+            "iPhone 16 Plus"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 15 Pro",
+            "iPhone 15 Pro Max"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 15",
+            "iPhone 15 Plus"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 14 Pro",
+            "iPhone 14 Pro Max"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 14",
+            "iPhone 14 Plus"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone SE (3rd gen.)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 13 Pro",
+            "iPhone 13 Pro Max"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 13",
+            "iPhone 13 mini"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 12 Pro",
+            "iPhone 12 Pro Max"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 12",
+            "iPhone 12 mini"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone SE (2nd gen.)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 11 Pro",
+            "iPhone 11 Pro Max"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 11"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone XR"
+          ],
+          "support": [
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone XS",
+            "iPhone XS Max"
+          ],
+          "support": [
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone X"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 8",
+            "iPhone 8 Plus"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 7",
+            "iPhone 7 Plus"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone SE"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 6s",
+            "iPhone 6s Plus"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 6",
+            "iPhone 6 Plus"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 5s"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 5c"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 5"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 4s"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 4"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 3GS"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 3G"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iPad",
+      "gridClass": "version-grid-ipados",
+      "gridColumns": 18,
+      "osVersions": [
+        {
+          "name": "iPadOS 26",
+          "image": "iOS_26.png",
+          "year": 2025
+        },
+        {
+          "name": "iPadOS 18",
+          "image": "iPadOS_18.png",
+          "year": 2024
+        },
+        {
+          "name": "iPadOS 17",
+          "image": "IPadOS_17.png",
+          "year": 2023
+        },
+        {
+          "name": "iPadOS 16",
+          "image": "iOS_16.png",
+          "year": 2022
+        },
+        {
+          "name": "iPadOS 15",
+          "image": "iOS_15.png",
+          "year": 2021
+        },
+        {
+          "name": "iPadOS 14",
+          "image": "iOS_14.png",
+          "year": 2020
+        },
+        {
+          "name": "iPadOS 13",
+          "image": "iOS_13.png",
+          "year": 2019
+        },
+        {
+          "name": "iOS 12",
+          "image": "iOS_12.png",
+          "year": 2018
+        },
+        {
+          "name": "iOS 11",
+          "image": "iOS_11.png",
+          "year": 2017
+        },
+        {
+          "name": "iOS 10",
+          "image": "iOS_10.png",
+          "year": 2016
+        },
+        {
+          "name": "iOS 9",
+          "image": "iOS_9.png",
+          "year": 2015
+        },
+        {
+          "name": "iOS 8",
+          "image": "iOS_8.png",
+          "year": 2014
+        },
+        {
+          "name": "iOS 7",
+          "image": "iOS_7.png",
+          "year": 2013
+        },
+        {
+          "name": "iOS 6",
+          "image": "iOS_6.png",
+          "year": 2012
+        },
+        {
+          "name": "iOS 5",
+          "image": "iOS_5.png",
+          "year": 2011
+        },
+        {
+          "name": "iOS 4",
+          "image": "iOS_4.png",
+          "year": 2010
+        },
+        {
+          "name": "iPhoneOS 3",
+          "image": "iPhone_OS_3.png",
+          "year": 2009
+        }
+      ],
+      "devices": [
+        {
+          "names": [
+            "iPad Pro 13″ (M5)"
+          ],
+          "support": [
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Pro 11″ (M5)"
+          ],
+          "support": [
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Air 13″ (M3)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Air 11″ (M3)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad (A16)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad mini (A17 Pro)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Pro 13″ (M4)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Pro 11″ (M4)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Air 13″ (M2)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Air 11″ (M2)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Pro 12.9″ (6th gen.)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Pro 11″ (4th gen.)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad (10th gen.)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Air (5th gen.)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad (9th gen.)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad mini (6th gen.)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Pro 12.9″ (5th gen.)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Pro 11″ (3rd gen.)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Air (4th gen.)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad (8th gen.)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Pro 12.9″ (4th gen.)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Pro 11″ (2nd gen.)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad (7th gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Air (3rd gen.)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad mini (5th gen.)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Pro 12.9″ (3 gen.)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Pro 11″ (1st gen.)"
+          ],
+          "support": [
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad (6th gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Pro 12.9″ (2nd gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Pro 10.5″"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad (5th gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Pro 9.7″"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Pro 12.9″ (1st gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad mini (4th gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad mini (3rd gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Air (2nd gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad mini (2nd gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad Air (1st gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad (4th gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad mini (1st gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad (3rd gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad (2nd gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPad (1st gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iPod touch",
+      "gridClass": "version-grid-ipod",
+      "gridColumns": 20,
+      "osVersions": [
+        {
+          "name": "iOS 26",
+          "image": "iOS_26.png",
+          "year": 2025
+        },
+        {
+          "name": "iOS 18",
+          "image": "iOS_18.png",
+          "year": 2024
+        },
+        {
+          "name": "iOS 17",
+          "image": "iOS_17.png",
+          "year": 2023
+        },
+        {
+          "name": "iOS 16",
+          "image": "iOS_16.png",
+          "year": 2022
+        },
+        {
+          "name": "iOS 15",
+          "image": "iOS_15.png",
+          "year": 2021
+        },
+        {
+          "name": "iOS 14",
+          "image": "iOS_14.png",
+          "year": 2020
+        },
+        {
+          "name": "iOS 13",
+          "image": "iOS_13.png",
+          "year": 2019
+        },
+        {
+          "name": "iOS 12",
+          "image": "iOS_12.png",
+          "year": 2018
+        },
+        {
+          "name": "iOS 11",
+          "image": "iOS_11.png",
+          "year": 2017
+        },
+        {
+          "name": "iOS 10",
+          "image": "iOS_10.png",
+          "year": 2016
+        },
+        {
+          "name": "iOS 9",
+          "image": "iOS_9.png",
+          "year": 2015
+        },
+        {
+          "name": "iOS 8",
+          "image": "iOS_8.png",
+          "year": 2014
+        },
+        {
+          "name": "iOS 7",
+          "image": "iOS_7.png",
+          "year": 2013
+        },
+        {
+          "name": "iOS 6",
+          "image": "iOS_6.png",
+          "year": 2012
+        },
+        {
+          "name": "iOS 5",
+          "image": "iOS_5.png",
+          "year": 2011
+        },
+        {
+          "name": "iOS 4",
+          "image": "iOS_4.png",
+          "year": 2010
+        },
+        {
+          "name": "iPhoneOS 3",
+          "image": "iPhone_OS_3.png",
+          "year": 2009
+        },
+        {
+          "name": "iPhoneOS 2",
+          "image": "iPhone_OS_2.png",
+          "year": 2008
+        },
+        {
+          "name": "iPhoneOS",
+          "image": "iPhone_OS_1.png",
+          "year": 2007
+        }
+      ],
+      "devices": [
+        {
+          "names": [
+            "iPod touch (7th gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPod touch (6th gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPod touch (5th gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPod touch (4th gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPod touch (3rd gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPod touch (2nd gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported",
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPod touch (1st gen.)"
+          ],
+          "support": [
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "unsupported",
+            "supported",
+            "supported",
+            "supported"
+          ]
+        }
+      ]
+    }
+  ]
+}

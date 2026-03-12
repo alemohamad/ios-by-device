@@ -1,0 +1,10 @@
+{
+  "name": "ios-by-device",
+  "version": "1.0.0",
+  "description": "iOS and iPadOS version support for every iPhone, iPad, and iPod touch",
+  "scripts": {
+    "build": "node scripts/generate-html.js"
+  },
+  "author": "Ale Mohamad",
+  "license": "MIT"
+}
