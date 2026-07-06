@@ -73,6 +73,7 @@ ${devices}
 // Generate the complete HTML
 function generateHTML() {
   const sections = data.sections.map(generateSection).join('\n');
+  const timestamp = Date.now();
 
   return `<!DOCTYPE html>
 <html data-wf-page="6915ad67ed7b5d6004897ccf" data-wf-site="6915ad66ed7b5d6004897c94">
@@ -91,7 +92,7 @@ function generateHTML() {
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/ios-version-by-device.webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/ios-version-by-device.webflow.css?v=${timestamp}" rel="stylesheet" type="text/css">
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
@@ -112,10 +113,28 @@ ${sections}
 </html>`;
 }
 
+// Update CSS grid-template-columns to match gridColumns from JSON
+function updateCSS() {
+  const cssPath = path.join(__dirname, '..', 'docs', 'css', 'ios-version-by-device.webflow.css');
+  let css = fs.readFileSync(cssPath, 'utf8');
+
+  for (const section of data.sections) {
+    const columns = Array(section.gridColumns).fill('1fr').join(' ');
+    const regex = new RegExp(
+      `(\\.${section.gridClass}\\s*\\{[^}]*grid-template-columns:)\\s*[^;]+(;)`,
+    );
+    css = css.replace(regex, `$1 ${columns}$2`);
+  }
+
+  fs.writeFileSync(cssPath, css, 'utf8');
+  console.log('Updated CSS grid-template-columns');
+}
+
 // Write the output
 const outputPath = path.join(__dirname, '..', 'docs', 'index.html');
 const html = generateHTML();
 fs.writeFileSync(outputPath, html, 'utf8');
+updateCSS();
 
 const totalDevices = data.sections.reduce((sum, s) => sum + s.devices.length, 0);
 console.log(`Generated index.html with ${data.sections.length} sections, ${totalDevices} devices`);

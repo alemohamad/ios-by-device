@@ -6,6 +6,11 @@
       "gridColumns": 21,
       "osVersions": [
         {
+          "name": "iOS 27",
+          "image": "iOS_27.png",
+          "year": 2026
+        },
+        {
           "name": "iOS 26",
           "image": "iOS_26.png",
           "year": 2025
@@ -108,6 +113,7 @@
           ],
           "support": [
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -135,6 +141,7 @@
           ],
           "support": [
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -160,6 +167,7 @@
             "iPhone Air"
           ],
           "support": [
+            "supported",
             "supported",
             null,
             null,
@@ -187,6 +195,7 @@
           ],
           "support": [
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -212,6 +221,7 @@
             "iPhone 16e"
           ],
           "support": [
+            "supported",
             "supported",
             "supported",
             null,
@@ -241,6 +251,7 @@
           "support": [
             "supported",
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -266,6 +277,7 @@
             "iPhone 16 Plus"
           ],
           "support": [
+            "supported",
             "supported",
             "supported",
             null,
@@ -296,6 +308,7 @@
             "supported",
             "supported",
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -320,6 +333,7 @@
             "iPhone 15 Plus"
           ],
           "support": [
+            "supported",
             "supported",
             "supported",
             "supported",
@@ -351,6 +365,7 @@
             "supported",
             "supported",
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -378,6 +393,7 @@
             "supported",
             "supported",
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -400,6 +416,7 @@
             "iPhone SE (3rd gen.)"
           ],
           "support": [
+            "supported",
             "supported",
             "supported",
             "supported",
@@ -432,6 +449,7 @@
             "supported",
             "supported",
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -454,6 +472,7 @@
             "iPhone 13 mini"
           ],
           "support": [
+            "supported",
             "supported",
             "supported",
             "supported",
@@ -487,6 +506,7 @@
             "supported",
             "supported",
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -514,6 +534,7 @@
             "supported",
             "supported",
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -534,6 +555,7 @@
             "iPhone SE (2nd gen.)"
           ],
           "support": [
+            "supported",
             "supported",
             "supported",
             "supported",
@@ -568,6 +590,7 @@
             "supported",
             "supported",
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -587,6 +610,7 @@
             "iPhone 11"
           ],
           "support": [
+            "supported",
             "supported",
             "supported",
             "supported",
@@ -614,6 +638,7 @@
           ],
           "support": [
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -640,6 +665,7 @@
             "iPhone XS Max"
           ],
           "support": [
+            "unsupported",
             "unsupported",
             "supported",
             "supported",
@@ -669,6 +695,7 @@
             "unsupported",
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -693,6 +720,7 @@
             "iPhone 8 Plus"
           ],
           "support": [
+            "unsupported",
             "unsupported",
             "unsupported",
             "unsupported",
@@ -724,6 +752,7 @@
             "unsupported",
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -746,6 +775,7 @@
             "iPhone SE"
           ],
           "support": [
+            "unsupported",
             "unsupported",
             "unsupported",
             "unsupported",
@@ -773,6 +803,7 @@
             "iPhone 6s Plus"
           ],
           "support": [
+            "unsupported",
             "unsupported",
             "unsupported",
             "unsupported",
@@ -807,6 +838,7 @@
             "unsupported",
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -826,6 +858,7 @@
             "iPhone 5s"
           ],
           "support": [
+            "unsupported",
             "unsupported",
             "unsupported",
             "unsupported",
@@ -861,6 +894,7 @@
             "unsupported",
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -878,6 +912,7 @@
             "iPhone 5"
           ],
           "support": [
+            "unsupported",
             "unsupported",
             "unsupported",
             "unsupported",
@@ -914,6 +949,7 @@
             "unsupported",
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -930,6 +966,7 @@
             "iPhone 4"
           ],
           "support": [
+            "unsupported",
             "unsupported",
             "unsupported",
             "unsupported",
@@ -969,6 +1006,7 @@
             "unsupported",
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -982,6 +1020,7 @@
             "iPhone 3G"
           ],
           "support": [
+            "unsupported",
             "unsupported",
             "unsupported",
             "unsupported",
@@ -1024,6 +1063,7 @@
             "unsupported",
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported"
@@ -1034,8 +1074,13 @@
     {
       "name": "iPad",
       "gridClass": "version-grid-ipados",
-      "gridColumns": 18,
+      "gridColumns": 19,
       "osVersions": [
+        {
+          "name": "iPadOS 27",
+          "image": "iOS_27.png",
+          "year": 2026
+        },
         {
           "name": "iPadOS 26",
           "image": "iOS_26.png",
@@ -1129,6 +1174,7 @@
           ],
           "support": [
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -1152,6 +1198,7 @@
             "iPad Air 11″ (M4)"
           ],
           "support": [
+            "supported",
             "supported",
             null,
             null,
@@ -1177,6 +1224,7 @@
           ],
           "support": [
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -1200,6 +1248,7 @@
             "iPad Pro 11″ (M5)"
           ],
           "support": [
+            "supported",
             "supported",
             null,
             null,
@@ -1226,6 +1275,7 @@
           "support": [
             "supported",
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -1248,6 +1298,7 @@
             "iPad Air 11″ (M3)"
           ],
           "support": [
+            "supported",
             "supported",
             "supported",
             null,
@@ -1274,6 +1325,7 @@
           "support": [
             "supported",
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -1296,6 +1348,7 @@
             "iPad mini (A17 Pro)"
           ],
           "support": [
+            "supported",
             "supported",
             "supported",
             null,
@@ -1323,6 +1376,7 @@
             "supported",
             "supported",
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -1344,6 +1398,7 @@
             "iPad Pro 11″ (M4)"
           ],
           "support": [
+            "supported",
             "supported",
             "supported",
             "supported",
@@ -1371,6 +1426,7 @@
             "supported",
             "supported",
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -1392,6 +1448,7 @@
             "iPad Air 11″ (M2)"
           ],
           "support": [
+            "supported",
             "supported",
             "supported",
             "supported",
@@ -1420,6 +1477,7 @@
             "supported",
             "supported",
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -1444,6 +1502,7 @@
             "supported",
             "supported",
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -1464,6 +1523,7 @@
             "iPad (10th gen.)"
           ],
           "support": [
+            "supported",
             "supported",
             "supported",
             "supported",
@@ -1493,6 +1553,7 @@
             "supported",
             "supported",
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -1517,6 +1578,7 @@
             "supported",
             "supported",
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -1536,6 +1598,7 @@
             "iPad mini (6th gen.)"
           ],
           "support": [
+            "supported",
             "supported",
             "supported",
             "supported",
@@ -1566,6 +1629,7 @@
             "supported",
             "supported",
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -1584,6 +1648,7 @@
             "iPad Pro 11″ (3rd gen.)"
           ],
           "support": [
+            "supported",
             "supported",
             "supported",
             "supported",
@@ -1614,6 +1679,7 @@
             "supported",
             "supported",
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -1632,6 +1698,7 @@
             "iPad (8th gen.)"
           ],
           "support": [
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -1663,6 +1730,7 @@
             "supported",
             "supported",
             "supported",
+            "supported",
             null,
             null,
             null,
@@ -1680,6 +1748,7 @@
             "iPad Pro 11″ (2nd gen.)"
           ],
           "support": [
+            "supported",
             "supported",
             "supported",
             "supported",
@@ -1705,6 +1774,7 @@
           ],
           "support": [
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -1728,6 +1798,7 @@
             "iPad Air (3rd gen.)"
           ],
           "support": [
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -1752,6 +1823,7 @@
             "iPad mini (5th gen.)"
           ],
           "support": [
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -1776,6 +1848,7 @@
             "iPad Pro 12.9″ (3 gen.)"
           ],
           "support": [
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -1800,6 +1873,7 @@
             "iPad Pro 11″ (1st gen.)"
           ],
           "support": [
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -1826,6 +1900,7 @@
           "support": [
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -1850,6 +1925,7 @@
           "support": [
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -1872,6 +1948,7 @@
             "iPad Pro 10.5″"
           ],
           "support": [
+            "unsupported",
             "unsupported",
             "unsupported",
             "supported",
@@ -1899,6 +1976,7 @@
             "unsupported",
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -1920,6 +1998,7 @@
             "iPad Pro 9.7″"
           ],
           "support": [
+            "unsupported",
             "unsupported",
             "unsupported",
             "unsupported",
@@ -1947,6 +2026,7 @@
             "unsupported",
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -1968,6 +2048,7 @@
             "iPad mini (4th gen.)"
           ],
           "support": [
+            "unsupported",
             "unsupported",
             "unsupported",
             "unsupported",
@@ -1999,6 +2080,7 @@
             "unsupported",
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -2016,6 +2098,7 @@
             "iPad Air (2nd gen.)"
           ],
           "support": [
+            "unsupported",
             "unsupported",
             "unsupported",
             "unsupported",
@@ -2047,6 +2130,7 @@
             "unsupported",
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -2071,6 +2155,7 @@
             "unsupported",
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -2088,6 +2173,7 @@
             "iPad (4th gen.)"
           ],
           "support": [
+            "unsupported",
             "unsupported",
             "unsupported",
             "unsupported",
@@ -2122,6 +2208,7 @@
             "unsupported",
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -2146,6 +2233,7 @@
             "unsupported",
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -2160,6 +2248,7 @@
             "iPad (2nd gen.)"
           ],
           "support": [
+            "unsupported",
             "unsupported",
             "unsupported",
             "unsupported",
@@ -2198,6 +2287,7 @@
             "unsupported",
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported"
@@ -2208,8 +2298,13 @@
     {
       "name": "iPod touch",
       "gridClass": "version-grid-ipod",
-      "gridColumns": 20,
+      "gridColumns": 21,
       "osVersions": [
+        {
+          "name": "iOS 27",
+          "image": "iOS_27.png",
+          "year": 2026
+        },
         {
           "name": "iOS 26",
           "image": "iOS_26.png",
@@ -2316,6 +2411,7 @@
             "unsupported",
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -2345,6 +2441,7 @@
             "unsupported",
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -2364,6 +2461,7 @@
             "iPod touch (5th gen.)"
           ],
           "support": [
+            "unsupported",
             "unsupported",
             "unsupported",
             "unsupported",
@@ -2403,6 +2501,7 @@
             "unsupported",
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -2416,6 +2515,7 @@
             "iPod touch (3rd gen.)"
           ],
           "support": [
+            "unsupported",
             "unsupported",
             "unsupported",
             "unsupported",
@@ -2457,6 +2557,7 @@
             "unsupported",
             "unsupported",
             "unsupported",
+            "unsupported",
             "supported",
             "supported",
             "supported",
@@ -2468,6 +2569,7 @@
             "iPod touch (1st gen.)"
           ],
           "support": [
+            "unsupported",
             "unsupported",
             "unsupported",
             "unsupported",
