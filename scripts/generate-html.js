@@ -21,7 +21,7 @@ function sectionAttr(name) {
 // Generate OS version columns (header row)
 function generateOSColumns(osVersions) {
   return osVersions.map(os =>
-    `        <div class="os-column"><img src="images/${os.image}" loading="lazy" width="32" alt="" class="os-image">
+    `        <div class="os-column"><img src="images/${os.image}" loading="lazy" width="32" height="32" alt="" class="os-image">
           <div class="os-name">${os.name}</div>
           <div class="os-launch-date">${os.year}</div>
         </div>`
