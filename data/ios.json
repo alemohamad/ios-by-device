@@ -109,6 +109,61 @@
       "devices": [
         {
           "names": [
+            "iPhone Duo"
+          ],
+          "support": [
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
+            "iPhone 18 Pro",
+            "iPhone 18 Pro Max"
+          ],
+          "support": [
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
             "iPhone 17e"
           ],
           "support": [
