@@ -91,17 +91,17 @@
           "year": 2010
         },
         {
-          "name": "iPhoneOS 3",
+          "name": "iPhone OS 3",
           "image": "iPhone_OS_3.png",
           "year": 2009
         },
         {
-          "name": "iPhoneOS 2",
+          "name": "iPhone OS 2",
           "image": "iPhone_OS_2.png",
           "year": 2008
         },
         {
-          "name": "iPhoneOS",
+          "name": "iPhone OS 1",
           "image": "iPhone_OS_1.png",
           "year": 2007
         }
@@ -1148,7 +1148,7 @@
         },
         {
           "name": "iPadOS 17",
-          "image": "IPadOS_17.png",
+          "image": "iPadOS_17.png",
           "year": 2023
         },
         {
@@ -1217,7 +1217,7 @@
           "year": 2010
         },
         {
-          "name": "iPhoneOS 3",
+          "name": "iPhone OS 3",
           "image": "iPhone_OS_3.png",
           "year": 2009
         }
@@ -2466,17 +2466,17 @@
           "year": 2010
         },
         {
-          "name": "iPhoneOS 3",
+          "name": "iPhone OS 3",
           "image": "iPhone_OS_3.png",
           "year": 2009
         },
         {
-          "name": "iPhoneOS 2",
+          "name": "iPhone OS 2",
           "image": "iPhone_OS_2.png",
           "year": 2008
         },
         {
-          "name": "iPhoneOS",
+          "name": "iPhone OS 1",
           "image": "iPhone_OS_1.png",
           "year": 2007
         }

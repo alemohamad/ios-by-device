@@ -1,0 +1,25 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # Validates data/ios.json and regenerates the site
+      - run: npm run build
+
+      # Fails if the committed docs/ output is out of date with the data
+      - name: Check generated files are committed
+        run: |
+          git status --porcelain -- docs
+          test -z "$(git status --porcelain -- docs)"
