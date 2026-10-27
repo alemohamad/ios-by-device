@@ -352,6 +352,11 @@ a:hover {
   padding-bottom: 60px;
 }
 
+.footer-links {
+  gap: 24px;
+  display: flex;
+}
+
 .bold-text {
   font-weight: 600;
 }

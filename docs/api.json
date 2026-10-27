@@ -1,0 +1,1559 @@
+{
+  "version": 1,
+  "source": "https://iosbydevice.info/",
+  "devices": [
+    {
+      "names": [
+        "iPhone Duo"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-duo/",
+      "firstSupported": "iOS 27",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 18 Pro",
+        "iPhone 18 Pro Max"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-18-pro/",
+      "firstSupported": "iOS 27",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 17e"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-17e/",
+      "firstSupported": "iOS 26",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 26",
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 17 Pro",
+        "iPhone 17 Pro Max"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-17-pro/",
+      "firstSupported": "iOS 26",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 26",
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone Air"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-air/",
+      "firstSupported": "iOS 26",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 26",
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 17"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-17/",
+      "firstSupported": "iOS 26",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 26",
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 16e"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-16e/",
+      "firstSupported": "iOS 18",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 18",
+        "iOS 26",
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 16 Pro",
+        "iPhone 16 Pro Max"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-16-pro/",
+      "firstSupported": "iOS 18",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 18",
+        "iOS 26",
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 16",
+        "iPhone 16 Plus"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-16/",
+      "firstSupported": "iOS 18",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 18",
+        "iOS 26",
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 15 Pro",
+        "iPhone 15 Pro Max"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-15-pro/",
+      "firstSupported": "iOS 17",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 17",
+        "iOS 18",
+        "iOS 26",
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 15",
+        "iPhone 15 Plus"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-15/",
+      "firstSupported": "iOS 17",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 17",
+        "iOS 18",
+        "iOS 26",
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 14 Pro",
+        "iPhone 14 Pro Max"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-14-pro/",
+      "firstSupported": "iOS 16",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 16",
+        "iOS 17",
+        "iOS 18",
+        "iOS 26",
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 14",
+        "iPhone 14 Plus"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-14/",
+      "firstSupported": "iOS 16",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 16",
+        "iOS 17",
+        "iOS 18",
+        "iOS 26",
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone SE (3rd gen.)"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-se-3rd-gen/",
+      "firstSupported": "iOS 15",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 15",
+        "iOS 16",
+        "iOS 17",
+        "iOS 18",
+        "iOS 26",
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 13 Pro",
+        "iPhone 13 Pro Max"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-13-pro/",
+      "firstSupported": "iOS 15",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 15",
+        "iOS 16",
+        "iOS 17",
+        "iOS 18",
+        "iOS 26",
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 13",
+        "iPhone 13 mini"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-13/",
+      "firstSupported": "iOS 15",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 15",
+        "iOS 16",
+        "iOS 17",
+        "iOS 18",
+        "iOS 26",
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 12 Pro",
+        "iPhone 12 Pro Max"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-12-pro/",
+      "firstSupported": "iOS 14",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 14",
+        "iOS 15",
+        "iOS 16",
+        "iOS 17",
+        "iOS 18",
+        "iOS 26",
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 12",
+        "iPhone 12 mini"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-12/",
+      "firstSupported": "iOS 14",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 14",
+        "iOS 15",
+        "iOS 16",
+        "iOS 17",
+        "iOS 18",
+        "iOS 26",
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone SE (2nd gen.)"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-se-2nd-gen/",
+      "firstSupported": "iOS 13",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 13",
+        "iOS 14",
+        "iOS 15",
+        "iOS 16",
+        "iOS 17",
+        "iOS 18",
+        "iOS 26",
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 11 Pro",
+        "iPhone 11 Pro Max"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-11-pro/",
+      "firstSupported": "iOS 13",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 13",
+        "iOS 14",
+        "iOS 15",
+        "iOS 16",
+        "iOS 17",
+        "iOS 18",
+        "iOS 26",
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 11"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-11/",
+      "firstSupported": "iOS 13",
+      "latestSupported": "iOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iOS 13",
+        "iOS 14",
+        "iOS 15",
+        "iOS 16",
+        "iOS 17",
+        "iOS 18",
+        "iOS 26",
+        "iOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPhone XR"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-xr/",
+      "firstSupported": "iOS 12",
+      "latestSupported": "iOS 18",
+      "isCurrent": false,
+      "supported": [
+        "iOS 12",
+        "iOS 13",
+        "iOS 14",
+        "iOS 15",
+        "iOS 16",
+        "iOS 17",
+        "iOS 18"
+      ]
+    },
+    {
+      "names": [
+        "iPhone XS",
+        "iPhone XS Max"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-xs/",
+      "firstSupported": "iOS 12",
+      "latestSupported": "iOS 18",
+      "isCurrent": false,
+      "supported": [
+        "iOS 12",
+        "iOS 13",
+        "iOS 14",
+        "iOS 15",
+        "iOS 16",
+        "iOS 17",
+        "iOS 18"
+      ]
+    },
+    {
+      "names": [
+        "iPhone X"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-x/",
+      "firstSupported": "iOS 11",
+      "latestSupported": "iOS 16",
+      "isCurrent": false,
+      "supported": [
+        "iOS 11",
+        "iOS 12",
+        "iOS 13",
+        "iOS 14",
+        "iOS 15",
+        "iOS 16"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 8",
+        "iPhone 8 Plus"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-8/",
+      "firstSupported": "iOS 11",
+      "latestSupported": "iOS 16",
+      "isCurrent": false,
+      "supported": [
+        "iOS 11",
+        "iOS 12",
+        "iOS 13",
+        "iOS 14",
+        "iOS 15",
+        "iOS 16"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 7",
+        "iPhone 7 Plus"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-7/",
+      "firstSupported": "iOS 10",
+      "latestSupported": "iOS 15",
+      "isCurrent": false,
+      "supported": [
+        "iOS 10",
+        "iOS 11",
+        "iOS 12",
+        "iOS 13",
+        "iOS 14",
+        "iOS 15"
+      ]
+    },
+    {
+      "names": [
+        "iPhone SE"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-se/",
+      "firstSupported": "iOS 9",
+      "latestSupported": "iOS 15",
+      "isCurrent": false,
+      "supported": [
+        "iOS 9",
+        "iOS 10",
+        "iOS 11",
+        "iOS 12",
+        "iOS 13",
+        "iOS 14",
+        "iOS 15"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 6s",
+        "iPhone 6s Plus"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-6s/",
+      "firstSupported": "iOS 9",
+      "latestSupported": "iOS 15",
+      "isCurrent": false,
+      "supported": [
+        "iOS 9",
+        "iOS 10",
+        "iOS 11",
+        "iOS 12",
+        "iOS 13",
+        "iOS 14",
+        "iOS 15"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 6",
+        "iPhone 6 Plus"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-6/",
+      "firstSupported": "iOS 8",
+      "latestSupported": "iOS 12",
+      "isCurrent": false,
+      "supported": [
+        "iOS 8",
+        "iOS 9",
+        "iOS 10",
+        "iOS 11",
+        "iOS 12"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 5s"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-5s/",
+      "firstSupported": "iOS 7",
+      "latestSupported": "iOS 12",
+      "isCurrent": false,
+      "supported": [
+        "iOS 7",
+        "iOS 8",
+        "iOS 9",
+        "iOS 10",
+        "iOS 11",
+        "iOS 12"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 5c"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-5c/",
+      "firstSupported": "iOS 7",
+      "latestSupported": "iOS 10",
+      "isCurrent": false,
+      "supported": [
+        "iOS 7",
+        "iOS 8",
+        "iOS 9",
+        "iOS 10"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 5"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-5/",
+      "firstSupported": "iOS 6",
+      "latestSupported": "iOS 10",
+      "isCurrent": false,
+      "supported": [
+        "iOS 6",
+        "iOS 7",
+        "iOS 8",
+        "iOS 9",
+        "iOS 10"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 4s"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-4s/",
+      "firstSupported": "iOS 5",
+      "latestSupported": "iOS 9",
+      "isCurrent": false,
+      "supported": [
+        "iOS 5",
+        "iOS 6",
+        "iOS 7",
+        "iOS 8",
+        "iOS 9"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 4"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-4/",
+      "firstSupported": "iOS 4",
+      "latestSupported": "iOS 7",
+      "isCurrent": false,
+      "supported": [
+        "iOS 4",
+        "iOS 5",
+        "iOS 6",
+        "iOS 7"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 3GS"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-3gs/",
+      "firstSupported": "iPhone OS 3",
+      "latestSupported": "iOS 6",
+      "isCurrent": false,
+      "supported": [
+        "iPhone OS 3",
+        "iOS 4",
+        "iOS 5",
+        "iOS 6"
+      ]
+    },
+    {
+      "names": [
+        "iPhone 3G"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone-3g/",
+      "firstSupported": "iPhone OS 2",
+      "latestSupported": "iOS 4",
+      "isCurrent": false,
+      "supported": [
+        "iPhone OS 2",
+        "iPhone OS 3",
+        "iOS 4"
+      ]
+    },
+    {
+      "names": [
+        "iPhone"
+      ],
+      "type": "iPhone",
+      "url": "https://iosbydevice.info/devices/iphone/",
+      "firstSupported": "iPhone OS 1",
+      "latestSupported": "iPhone OS 3",
+      "isCurrent": false,
+      "supported": [
+        "iPhone OS 1",
+        "iPhone OS 2",
+        "iPhone OS 3"
+      ]
+    },
+    {
+      "names": [
+        "iPad mini (A20 Pro)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-mini-a20-pro/",
+      "firstSupported": "iPadOS 27",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad Air 13″ (M4)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-air-13-inch-m4/",
+      "firstSupported": "iPadOS 26",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad Air 11″ (M4)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-air-11-inch-m4/",
+      "firstSupported": "iPadOS 26",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad Pro 13″ (M5)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-pro-13-inch-m5/",
+      "firstSupported": "iPadOS 26",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad Pro 11″ (M5)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-pro-11-inch-m5/",
+      "firstSupported": "iPadOS 26",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad Air 13″ (M3)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-air-13-inch-m3/",
+      "firstSupported": "iPadOS 18",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 18",
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad Air 11″ (M3)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-air-11-inch-m3/",
+      "firstSupported": "iPadOS 18",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 18",
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad (A16)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-a16/",
+      "firstSupported": "iPadOS 18",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 18",
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad mini (A17 Pro)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-mini-a17-pro/",
+      "firstSupported": "iPadOS 18",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 18",
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad Pro 13″ (M4)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-pro-13-inch-m4/",
+      "firstSupported": "iPadOS 17",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 17",
+        "iPadOS 18",
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad Pro 11″ (M4)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-pro-11-inch-m4/",
+      "firstSupported": "iPadOS 17",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 17",
+        "iPadOS 18",
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad Air 13″ (M2)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-air-13-inch-m2/",
+      "firstSupported": "iPadOS 17",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 17",
+        "iPadOS 18",
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad Air 11″ (M2)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-air-11-inch-m2/",
+      "firstSupported": "iPadOS 17",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 17",
+        "iPadOS 18",
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad Pro 12.9″ (6th gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-pro-12-9-inch-6th-gen/",
+      "firstSupported": "iPadOS 16",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 16",
+        "iPadOS 17",
+        "iPadOS 18",
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad Pro 11″ (4th gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-pro-11-inch-4th-gen/",
+      "firstSupported": "iPadOS 16",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 16",
+        "iPadOS 17",
+        "iPadOS 18",
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad (10th gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-10th-gen/",
+      "firstSupported": "iPadOS 16",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 16",
+        "iPadOS 17",
+        "iPadOS 18",
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad Air (5th gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-air-5th-gen/",
+      "firstSupported": "iPadOS 15",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 15",
+        "iPadOS 16",
+        "iPadOS 17",
+        "iPadOS 18",
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad (9th gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-9th-gen/",
+      "firstSupported": "iPadOS 15",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 15",
+        "iPadOS 16",
+        "iPadOS 17",
+        "iPadOS 18",
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad mini (6th gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-mini-6th-gen/",
+      "firstSupported": "iPadOS 15",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 15",
+        "iPadOS 16",
+        "iPadOS 17",
+        "iPadOS 18",
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad Pro 12.9″ (5th gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-pro-12-9-inch-5th-gen/",
+      "firstSupported": "iPadOS 14",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 14",
+        "iPadOS 15",
+        "iPadOS 16",
+        "iPadOS 17",
+        "iPadOS 18",
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad Pro 11″ (3rd gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-pro-11-inch-3rd-gen/",
+      "firstSupported": "iPadOS 14",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 14",
+        "iPadOS 15",
+        "iPadOS 16",
+        "iPadOS 17",
+        "iPadOS 18",
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad Air (4th gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-air-4th-gen/",
+      "firstSupported": "iPadOS 14",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 14",
+        "iPadOS 15",
+        "iPadOS 16",
+        "iPadOS 17",
+        "iPadOS 18",
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad (8th gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-8th-gen/",
+      "firstSupported": "iPadOS 14",
+      "latestSupported": "iPadOS 26",
+      "isCurrent": false,
+      "supported": [
+        "iPadOS 14",
+        "iPadOS 15",
+        "iPadOS 16",
+        "iPadOS 17",
+        "iPadOS 18",
+        "iPadOS 26"
+      ]
+    },
+    {
+      "names": [
+        "iPad Pro 12.9″ (4th gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-pro-12-9-inch-4th-gen/",
+      "firstSupported": "iPadOS 13",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 13",
+        "iPadOS 14",
+        "iPadOS 15",
+        "iPadOS 16",
+        "iPadOS 17",
+        "iPadOS 18",
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad Pro 11″ (2nd gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-pro-11-inch-2nd-gen/",
+      "firstSupported": "iPadOS 13",
+      "latestSupported": "iPadOS 27",
+      "isCurrent": true,
+      "supported": [
+        "iPadOS 13",
+        "iPadOS 14",
+        "iPadOS 15",
+        "iPadOS 16",
+        "iPadOS 17",
+        "iPadOS 18",
+        "iPadOS 26",
+        "iPadOS 27"
+      ]
+    },
+    {
+      "names": [
+        "iPad (7th gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-7th-gen/",
+      "firstSupported": "iPadOS 13",
+      "latestSupported": "iPadOS 18",
+      "isCurrent": false,
+      "supported": [
+        "iPadOS 13",
+        "iPadOS 14",
+        "iPadOS 15",
+        "iPadOS 16",
+        "iPadOS 17",
+        "iPadOS 18"
+      ]
+    },
+    {
+      "names": [
+        "iPad Air (3rd gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-air-3rd-gen/",
+      "firstSupported": "iOS 12",
+      "latestSupported": "iPadOS 26",
+      "isCurrent": false,
+      "supported": [
+        "iOS 12",
+        "iPadOS 13",
+        "iPadOS 14",
+        "iPadOS 15",
+        "iPadOS 16",
+        "iPadOS 17",
+        "iPadOS 18",
+        "iPadOS 26"
+      ]
+    },
+    {
+      "names": [
+        "iPad mini (5th gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-mini-5th-gen/",
+      "firstSupported": "iOS 12",
+      "latestSupported": "iPadOS 26",
+      "isCurrent": false,
+      "supported": [
+        "iOS 12",
+        "iPadOS 13",
+        "iPadOS 14",
+        "iPadOS 15",
+        "iPadOS 16",
+        "iPadOS 17",
+        "iPadOS 18",
+        "iPadOS 26"
+      ]
+    },
+    {
+      "names": [
+        "iPad Pro 12.9″ (3rd gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-pro-12-9-inch-3rd-gen/",
+      "firstSupported": "iOS 12",
+      "latestSupported": "iPadOS 26",
+      "isCurrent": false,
+      "supported": [
+        "iOS 12",
+        "iPadOS 13",
+        "iPadOS 14",
+        "iPadOS 15",
+        "iPadOS 16",
+        "iPadOS 17",
+        "iPadOS 18",
+        "iPadOS 26"
+      ]
+    },
+    {
+      "names": [
+        "iPad Pro 11″ (1st gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-pro-11-inch-1st-gen/",
+      "firstSupported": "iOS 12",
+      "latestSupported": "iPadOS 26",
+      "isCurrent": false,
+      "supported": [
+        "iOS 12",
+        "iPadOS 13",
+        "iPadOS 14",
+        "iPadOS 15",
+        "iPadOS 16",
+        "iPadOS 17",
+        "iPadOS 18",
+        "iPadOS 26"
+      ]
+    },
+    {
+      "names": [
+        "iPad (6th gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-6th-gen/",
+      "firstSupported": "iOS 11",
+      "latestSupported": "iPadOS 17",
+      "isCurrent": false,
+      "supported": [
+        "iOS 11",
+        "iOS 12",
+        "iPadOS 13",
+        "iPadOS 14",
+        "iPadOS 15",
+        "iPadOS 16",
+        "iPadOS 17"
+      ]
+    },
+    {
+      "names": [
+        "iPad Pro 12.9″ (2nd gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-pro-12-9-inch-2nd-gen/",
+      "firstSupported": "iOS 10",
+      "latestSupported": "iPadOS 17",
+      "isCurrent": false,
+      "supported": [
+        "iOS 10",
+        "iOS 11",
+        "iOS 12",
+        "iPadOS 13",
+        "iPadOS 14",
+        "iPadOS 15",
+        "iPadOS 16",
+        "iPadOS 17"
+      ]
+    },
+    {
+      "names": [
+        "iPad Pro 10.5″"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-pro-10-5-inch/",
+      "firstSupported": "iOS 10",
+      "latestSupported": "iPadOS 17",
+      "isCurrent": false,
+      "supported": [
+        "iOS 10",
+        "iOS 11",
+        "iOS 12",
+        "iPadOS 13",
+        "iPadOS 14",
+        "iPadOS 15",
+        "iPadOS 16",
+        "iPadOS 17"
+      ]
+    },
+    {
+      "names": [
+        "iPad (5th gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-5th-gen/",
+      "firstSupported": "iOS 10",
+      "latestSupported": "iPadOS 16",
+      "isCurrent": false,
+      "supported": [
+        "iOS 10",
+        "iOS 11",
+        "iOS 12",
+        "iPadOS 13",
+        "iPadOS 14",
+        "iPadOS 15",
+        "iPadOS 16"
+      ]
+    },
+    {
+      "names": [
+        "iPad Pro 9.7″"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-pro-9-7-inch/",
+      "firstSupported": "iOS 9",
+      "latestSupported": "iPadOS 16",
+      "isCurrent": false,
+      "supported": [
+        "iOS 9",
+        "iOS 10",
+        "iOS 11",
+        "iOS 12",
+        "iPadOS 13",
+        "iPadOS 14",
+        "iPadOS 15",
+        "iPadOS 16"
+      ]
+    },
+    {
+      "names": [
+        "iPad Pro 12.9″ (1st gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-pro-12-9-inch-1st-gen/",
+      "firstSupported": "iOS 9",
+      "latestSupported": "iPadOS 16",
+      "isCurrent": false,
+      "supported": [
+        "iOS 9",
+        "iOS 10",
+        "iOS 11",
+        "iOS 12",
+        "iPadOS 13",
+        "iPadOS 14",
+        "iPadOS 15",
+        "iPadOS 16"
+      ]
+    },
+    {
+      "names": [
+        "iPad mini (4th gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-mini-4th-gen/",
+      "firstSupported": "iOS 9",
+      "latestSupported": "iPadOS 15",
+      "isCurrent": false,
+      "supported": [
+        "iOS 9",
+        "iOS 10",
+        "iOS 11",
+        "iOS 12",
+        "iPadOS 13",
+        "iPadOS 14",
+        "iPadOS 15"
+      ]
+    },
+    {
+      "names": [
+        "iPad mini (3rd gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-mini-3rd-gen/",
+      "firstSupported": "iOS 8",
+      "latestSupported": "iOS 12",
+      "isCurrent": false,
+      "supported": [
+        "iOS 8",
+        "iOS 9",
+        "iOS 10",
+        "iOS 11",
+        "iOS 12"
+      ]
+    },
+    {
+      "names": [
+        "iPad Air (2nd gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-air-2nd-gen/",
+      "firstSupported": "iOS 8",
+      "latestSupported": "iPadOS 15",
+      "isCurrent": false,
+      "supported": [
+        "iOS 8",
+        "iOS 9",
+        "iOS 10",
+        "iOS 11",
+        "iOS 12",
+        "iPadOS 13",
+        "iPadOS 14",
+        "iPadOS 15"
+      ]
+    },
+    {
+      "names": [
+        "iPad mini (2nd gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-mini-2nd-gen/",
+      "firstSupported": "iOS 7",
+      "latestSupported": "iOS 12",
+      "isCurrent": false,
+      "supported": [
+        "iOS 7",
+        "iOS 8",
+        "iOS 9",
+        "iOS 10",
+        "iOS 11",
+        "iOS 12"
+      ]
+    },
+    {
+      "names": [
+        "iPad Air (1st gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-air-1st-gen/",
+      "firstSupported": "iOS 7",
+      "latestSupported": "iOS 12",
+      "isCurrent": false,
+      "supported": [
+        "iOS 7",
+        "iOS 8",
+        "iOS 9",
+        "iOS 10",
+        "iOS 11",
+        "iOS 12"
+      ]
+    },
+    {
+      "names": [
+        "iPad (4th gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-4th-gen/",
+      "firstSupported": "iOS 6",
+      "latestSupported": "iOS 10",
+      "isCurrent": false,
+      "supported": [
+        "iOS 6",
+        "iOS 7",
+        "iOS 8",
+        "iOS 9",
+        "iOS 10"
+      ]
+    },
+    {
+      "names": [
+        "iPad mini (1st gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-mini-1st-gen/",
+      "firstSupported": "iOS 6",
+      "latestSupported": "iOS 9",
+      "isCurrent": false,
+      "supported": [
+        "iOS 6",
+        "iOS 7",
+        "iOS 8",
+        "iOS 9"
+      ]
+    },
+    {
+      "names": [
+        "iPad (3rd gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-3rd-gen/",
+      "firstSupported": "iOS 5",
+      "latestSupported": "iOS 9",
+      "isCurrent": false,
+      "supported": [
+        "iOS 5",
+        "iOS 6",
+        "iOS 7",
+        "iOS 8",
+        "iOS 9"
+      ]
+    },
+    {
+      "names": [
+        "iPad (2nd gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-2nd-gen/",
+      "firstSupported": "iOS 4",
+      "latestSupported": "iOS 9",
+      "isCurrent": false,
+      "supported": [
+        "iOS 4",
+        "iOS 5",
+        "iOS 6",
+        "iOS 7",
+        "iOS 8",
+        "iOS 9"
+      ]
+    },
+    {
+      "names": [
+        "iPad (1st gen.)"
+      ],
+      "type": "iPad",
+      "url": "https://iosbydevice.info/devices/ipad-1st-gen/",
+      "firstSupported": "iPhone OS 3",
+      "latestSupported": "iOS 5",
+      "isCurrent": false,
+      "supported": [
+        "iPhone OS 3",
+        "iOS 4",
+        "iOS 5"
+      ]
+    },
+    {
+      "names": [
+        "iPod touch (7th gen.)"
+      ],
+      "type": "iPod touch",
+      "url": "https://iosbydevice.info/devices/ipod-touch-7th-gen/",
+      "firstSupported": "iOS 12",
+      "latestSupported": "iOS 15",
+      "isCurrent": false,
+      "supported": [
+        "iOS 12",
+        "iOS 13",
+        "iOS 14",
+        "iOS 15"
+      ]
+    },
+    {
+      "names": [
+        "iPod touch (6th gen.)"
+      ],
+      "type": "iPod touch",
+      "url": "https://iosbydevice.info/devices/ipod-touch-6th-gen/",
+      "firstSupported": "iOS 8",
+      "latestSupported": "iOS 12",
+      "isCurrent": false,
+      "supported": [
+        "iOS 8",
+        "iOS 9",
+        "iOS 10",
+        "iOS 11",
+        "iOS 12"
+      ]
+    },
+    {
+      "names": [
+        "iPod touch (5th gen.)"
+      ],
+      "type": "iPod touch",
+      "url": "https://iosbydevice.info/devices/ipod-touch-5th-gen/",
+      "firstSupported": "iOS 6",
+      "latestSupported": "iOS 9",
+      "isCurrent": false,
+      "supported": [
+        "iOS 6",
+        "iOS 7",
+        "iOS 8",
+        "iOS 9"
+      ]
+    },
+    {
+      "names": [
+        "iPod touch (4th gen.)"
+      ],
+      "type": "iPod touch",
+      "url": "https://iosbydevice.info/devices/ipod-touch-4th-gen/",
+      "firstSupported": "iOS 4",
+      "latestSupported": "iOS 6",
+      "isCurrent": false,
+      "supported": [
+        "iOS 4",
+        "iOS 5",
+        "iOS 6"
+      ]
+    },
+    {
+      "names": [
+        "iPod touch (3rd gen.)"
+      ],
+      "type": "iPod touch",
+      "url": "https://iosbydevice.info/devices/ipod-touch-3rd-gen/",
+      "firstSupported": "iPhone OS 3",
+      "latestSupported": "iOS 5",
+      "isCurrent": false,
+      "supported": [
+        "iPhone OS 3",
+        "iOS 4",
+        "iOS 5"
+      ]
+    },
+    {
+      "names": [
+        "iPod touch (2nd gen.)"
+      ],
+      "type": "iPod touch",
+      "url": "https://iosbydevice.info/devices/ipod-touch-2nd-gen/",
+      "firstSupported": "iPhone OS 2",
+      "latestSupported": "iOS 4",
+      "isCurrent": false,
+      "supported": [
+        "iPhone OS 2",
+        "iPhone OS 3",
+        "iOS 4"
+      ]
+    },
+    {
+      "names": [
+        "iPod touch (1st gen.)"
+      ],
+      "type": "iPod touch",
+      "url": "https://iosbydevice.info/devices/ipod-touch-1st-gen/",
+      "firstSupported": "iPhone OS 1",
+      "latestSupported": "iPhone OS 3",
+      "isCurrent": false,
+      "supported": [
+        "iPhone OS 1",
+        "iPhone OS 2",
+        "iPhone OS 3"
+      ]
+    }
+  ]
+}

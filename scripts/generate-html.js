@@ -12,6 +12,9 @@ const docsDir = path.join(__dirname, '..', 'docs');
 const devicesDir = path.join(docsDir, 'devices');
 const cssPath = path.join(docsDir, 'css', 'ios-version-by-device.webflow.css');
 const siteUrl = 'https://iosbydevice.info/';
+// Content hash in the og:image URL makes social sites refetch the image when it changes
+const ogImagePath = path.join(docsDir, 'images', 'iOS-by-Device.png');
+const ogImageHash = crypto.createHash('sha256').update(fs.readFileSync(ogImagePath)).digest('hex').slice(0, 8);
 const siteDescription = 'Find the iOS and iPadOS versions supported by any iPhone or iPad — fast and easy.';
 
 // Map support status to CSS class
@@ -98,7 +101,7 @@ function generateHead({ title, description, pagePath, root, cssHash }) {
   <meta content="${description}" name="description">
   <meta content="${title}" property="og:title">
   <meta content="${description}" property="og:description">
-  <meta content="${siteUrl}images/iOS-by-Device.png" property="og:image">
+  <meta content="${siteUrl}images/iOS-by-Device.png?v=${ogImageHash}" property="og:image">
   <meta content="${title}" property="twitter:title">
   <meta content="${description}" property="twitter:description">
   <meta property="og:type" content="website">
@@ -112,10 +115,13 @@ function generateHead({ title, description, pagePath, root, cssHash }) {
 </head>`;
 }
 
-function generateFooter() {
+function generateFooter(root) {
   return `  <section class="footer">
     <div>iPhone, iOS, iPhone OS, iPad, iPadOS and iPod touch are trademarks of Apple Inc., registered in the U.S. and other countries.</div>
-    <a href="https://github.com/alemohamad">Curated by <strong class="bold-text">Ale Mohamad</strong></a>
+    <div class="footer-links">
+      <a href="${root}api.json">JSON API</a>
+      <a href="https://github.com/alemohamad">Curated by <strong class="bold-text">Ale Mohamad</strong></a>
+    </div>
   </section>`;
 }
 
@@ -130,7 +136,7 @@ function generateHTML(cssHash) {
     <div class="description">These tables list every iPhone, iPad, and iPod touch along with the first and last iOS or iPadOS versions they support. Only major releases (e.g., iOS 13) are shown; minor point updates are omitted for clarity.</div>
   </section>
 ${sections}
-${generateFooter()}
+${generateFooter('')}
 </body>
 </html>`;
 }
@@ -189,9 +195,30 @@ ${rows}
       </ul>
     </div>
   </main>
-${generateFooter()}
+${generateFooter('../../')}
 </body>
 </html>`;
+}
+
+// Public data for developers, one entry per device row. Keep this format stable:
+// other sites may rely on it, unlike data/ios.json which is free to change.
+function generateAPI() {
+  const devices = data.sections.flatMap(section => section.devices.map(device => {
+    const supported = device.support
+      .map((s, i) => s === 'supported' ? section.osVersions[i].name : null)
+      .filter(Boolean)
+      .reverse();
+    return {
+      names: device.names,
+      type: section.name,
+      url: `${siteUrl}devices/${deviceSlug(device)}/`,
+      firstSupported: supported[0],
+      latestSupported: supported[supported.length - 1],
+      isCurrent: device.support[0] === 'supported',
+      supported,
+    };
+  }));
+  return JSON.stringify({ version: 1, source: siteUrl, devices }, null, 2) + '\n';
 }
 
 // List the home page and every device page for search engines
@@ -246,8 +273,9 @@ for (const section of data.sections) {
   }
 }
 fs.writeFileSync(path.join(docsDir, 'sitemap.xml'), generateSitemap(), 'utf8');
+fs.writeFileSync(path.join(docsDir, 'api.json'), generateAPI(), 'utf8');
 
 const totalDevices = data.sections.reduce((sum, s) => sum + s.devices.length, 0);
 console.log(`Generated index.html with ${data.sections.length} sections, ${totalDevices} devices`);
-console.log(`Generated ${totalDevices} device pages in docs/devices/ and sitemap.xml`);
+console.log(`Generated ${totalDevices} device pages in docs/devices/, sitemap.xml and api.json`);
 console.log(`Output: ${outputPath}`);

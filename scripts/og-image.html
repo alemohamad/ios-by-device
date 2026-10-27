@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>OG image template</title>
+<!--
+  Template for docs/images/iOS-by-Device.png (1200×630 social preview).
+  Render it with `npm run og`. The dot positions and fade were measured from the
+  original image; dot and mark styles match .color in the site stylesheet, scaled ×1.22.
+-->
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: #fff; }
+  .canvas {
+    position: relative;
+    width: 1200px;
+    height: 630px;
+    overflow: hidden;
+    background: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  }
+  /* Dots fade out toward the bottom */
+  .dots {
+    position: absolute;
+    inset: 0;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0px, rgba(0,0,0,0.943) 45px, rgba(0,0,0,0.869) 90px, rgba(0,0,0,0.805) 135px, rgba(0,0,0,0.723) 180px, rgba(0,0,0,0.617) 225px, rgba(0,0,0,0.539) 270px, rgba(0,0,0,0.442) 315px, rgba(0,0,0,0.355) 360px, rgba(0,0,0,0.265) 405px, rgba(0,0,0,0.182) 450px, rgba(0,0,0,0.114) 495px, rgba(0,0,0,0.065) 540px, rgba(0,0,0,0.025) 585px, rgba(0,0,0,0) 630px);
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0px, rgba(0,0,0,0.943) 45px, rgba(0,0,0,0.869) 90px, rgba(0,0,0,0.805) 135px, rgba(0,0,0,0.723) 180px, rgba(0,0,0,0.617) 225px, rgba(0,0,0,0.539) 270px, rgba(0,0,0,0.442) 315px, rgba(0,0,0,0.355) 360px, rgba(0,0,0,0.265) 405px, rgba(0,0,0,0.182) 450px, rgba(0,0,0,0.114) 495px, rgba(0,0,0,0.065) 540px, rgba(0,0,0,0.025) 585px, rgba(0,0,0,0) 630px);
+  }
+  .dot {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    margin: -19.5px 0 0 -19.5px;
+    border-radius: 50%;
+    background-color: #f5f5f7;
+    box-shadow: 0 0 1.2px 1.2px #0000001a;
+  }
+  .dot.green { background-color: #64b94d; box-shadow: none; }
+  .dot.red { background-color: #dd3c43; box-shadow: none; }
+  .dot.green::after,
+  .dot.red::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    -webkit-mask: var(--mark) center / 19.5px no-repeat;
+    mask: var(--mark) center / 19.5px no-repeat;
+  }
+  .dot.green { --mark: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M3 8.5l3.2 3.2L13 4.8' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/></svg>"); }
+  .dot.red { --mark: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M4.5 4.5l7 7M11.5 4.5l-7 7' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round'/></svg>"); }
+
+  /* Title block, with a soft white glow so the gray dots behind it don't compete */
+  .title-block {
+    position: absolute;
+    left: 800px;
+    top: 150px;
+    width: 360px;
+  }
+  .title-block::before {
+    content: "";
+    position: absolute;
+    inset: -60px -50px;
+    z-index: -1;
+    background: radial-gradient(closest-side, #fff 72%, #fff0);
+  }
+  .title {
+    color: #000;
+    font-size: 56px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+  }
+  .subtitle {
+    margin-top: 14px;
+    color: #3a3a3c;
+    font-size: 25px;
+    line-height: 1.3;
+  }
+</style>
+</head>
+<body>
+  <div class="canvas">
+    <div class="dots" id="dots"></div>
+    <div class="title-block">
+      <div class="title">iOS by Device</div>
+      <div class="subtitle">iOS &amp; iPadOS support for every iPhone, iPad and iPod&nbsp;touch</div>
+    </div>
+  </div>
+  <script>
+    // [kind, x, y]: 1 = supported (green), 2 = unsupported (red), 3 = not released (gray)
+    const DOTS = [
+      [1, 15.5, 12.5],
+      [1, 133.5, -6.5],
+      [1, 376.5, 17.5],
+      [1, 493.5, -1.5],
+      [3, 852.5, 5.5],
+      [3, 735.5, 21.5],
+      [3, 1095.5, 25.5],
+      [1, 259.5, 35.5],
+      [3, 618.5, 39.5],
+      [3, 978.5, 44.5],
+      [1, 142.5, 53.5],
+      [1, 502.5, 59.5],
+      [3, 861.5, 62.5],
+      [1, 25.5, 72.5],
+      [1, 385.5, 77.5],
+      [3, 744.5, 80.5],
+      [3, 1104.5, 84.5],
+      [1, 268.5, 95.5],
+      [3, 627.5, 99.5],
+      [3, 987.5, 102.5],
+      [1, 151.5, 114.5],
+      [1, 511.5, 118.5],
+      [3, 870.5, 120.5],
+      [1, 34.5, 132.5],
+      [1, 394.5, 137.5],
+      [3, 753.5, 139.5],
+      [3, 1113.5, 144.5],
+      [1, 277.5, 155.5],
+      [1, 637.5, 158.5],
+      [3, 997.5, 162.5],
+      [1, 160.5, 173.5],
+      [1, 520.5, 177.5],
+      [3, 879.5, 181.5],
+      [1, 44.5, 192.5],
+      [1, 404.5, 195.5],
+      [3, 763.5, 199.5],
+      [3, 1123.5, 204.5],
+      [1, 287.5, 213.5],
+      [1, 647.5, 219.5],
+      [3, 1006.5, 222.5],
+      [1, 170.5, 232.5],
+      [1, 530.5, 237.5],
+      [3, 889.5, 241.5],
+      [1, 53.5, 250.5],
+      [1, 413.5, 255.5],
+      [1, 773.5, 260.5],
+      [3, 1133.5, 264.5],
+      [1, 296.5, 274.5],
+      [1, 656.5, 279.5],
+      [3, 1015.5, 283.5],
+      [1, 179.5, 292.5],
+      [1, 539.5, 297.5],
+      [3, 899.5, 301.5],
+      [1, 62.5, 310.5],
+      [1, 423.5, 316.5],
+      [1, 783.5, 321.5],
+      [3, 1142.5, 326.5],
+      [1, 306.5, 334.5],
+      [1, 666.5, 339.5],
+      [3, 1025.5, 344.5],
+      [1, 189.5, 352.5],
+      [1, 549.5, 358.5],
+      [1, 909.5, 364.5],
+      [2, 72.5, 371.5],
+      [1, 432.5, 376.5],
+      [1, 793.5, 382.5],
+      [3, 1152.5, 386.5],
+      [1, 315.5, 394.5],
+      [1, 676.5, 401.5],
+      [1, 1036.5, 406.5],
+      [1, 198.5, 413.5],
+      [1, 559.5, 419.5],
+      [1, 919.5, 424.5],
+      [2, 81.5, 431.5],
+      [1, 442.5, 437.5],
+      [1, 802.5, 442.5],
+      [1, 325.5, 456.5],
+      [1, 685.5, 461.5],
+      [3, 1163.5, 463.5],
+      [1, 1045.5, 466.5],
+      [2, 208.5, 474.5],
+      [1, 568.5, 479.5],
+      [1, 929.5, 484.5],
+      [2, 91.5, 492.5],
+      [1, 451.5, 498.5],
+      [1, 812.5, 503.5],
+      [1, 1172.5, 510.5],
+      [1, 335.5, 516.5],
+      [1, 695.5, 521.5],
+      [1, 1056.5, 528.5],
+      [2, 218.5, 534.5],
+      [1, 578.5, 540.5],
+      [1, 939.5, 547.5],
+      [2, 101.5, 553.5]
+    ];
+    const kinds = { 1: 'green', 2: 'red', 3: '' };
+    document.getElementById('dots').innerHTML = DOTS
+      .map(([k, x, y]) => `<div class="dot ${kinds[k]}" style="left:${x}px;top:${y}px"></div>`)
+      .join('');
+  </script>
+</body>
+</html>

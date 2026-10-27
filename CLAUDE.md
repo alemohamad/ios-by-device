@@ -19,12 +19,15 @@ This validates `data/ios.json`, then generates `docs/index.html`, one page per d
 │   ├── index.html            # Generated output (do not edit directly)
 │   ├── devices/              # Generated device pages (wiped and rebuilt every build)
 │   ├── sitemap.xml           # Generated
+│   ├── api.json              # Generated public data for developers (linked in the footer)
 │   ├── robots.txt            # Points search engines to the sitemap
 │   ├── css/                  # normalize.css + site stylesheet (status colors)
 │   └── images/               # OS version icons and site assets
 ├── scripts/
 │   ├── generate-html.js      # JSON → HTML generator script
 │   ├── slug.js               # Device page URL slug (from the row's first name)
+│   ├── og-image.html         # Template for the social preview image
+│   ├── render-og.js          # `npm run og`: renders the template to docs/images/iOS-by-Device.png (needs Chrome)
 │   └── validate.js           # Data checks run before every build
 ├── .github/workflows/        # CI: build + check generated output is committed
 └── package.json
@@ -78,3 +81,4 @@ Values must read `unsupported* → supported+ → null*` (newest first); the val
 - Some devices share a row (e.g., "iPhone 17 Pro" and "iPhone 17 Pro Max") via the `names` array; a shared row gets one page, named after its first device (`devices/iphone-17-pro/`)
 - Each row on the home page is a single link (`a.device-row`, `display: contents`) to its device page. Renaming a row's first device changes its page URL
 - Images for OS version icons go in `docs/images/`
+- `docs/api.json` is a public, stable format (`version: 1`) that other sites may depend on. `data/ios.json` can change freely, but changes to `generateAPI()`'s output should stay backwards compatible (add fields, don't rename or remove), or bump `version`
