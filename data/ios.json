@@ -1225,6 +1225,31 @@
       "devices": [
         {
           "names": [
+            "iPad mini (A20 Pro)"
+          ],
+          "support": [
+            "supported",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "names": [
             "iPad Air 13″ (M4)"
           ],
           "support": [
@@ -1900,7 +1925,7 @@
         },
         {
           "names": [
-            "iPad Pro 12.9″ (3 gen.)"
+            "iPad Pro 12.9″ (3rd gen.)"
           ],
           "support": [
             "unsupported",
