@@ -16,6 +16,7 @@ const siteUrl = 'https://iosbydevice.info/';
 const ogImagePath = path.join(docsDir, 'images', 'iOS-by-Device.png');
 const ogImageHash = crypto.createHash('sha256').update(fs.readFileSync(ogImagePath)).digest('hex').slice(0, 8);
 const siteDescription = 'Find the iOS and iPadOS versions supported by any iPhone or iPad — fast and easy.';
+const analyticsScript = `<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "824cdd2fc0064fba9bfc7008ecac38fd"}'></script><!-- End Cloudflare Web Analytics -->`;
 
 // Map support status to CSS class
 function supportClass(status) {
@@ -137,6 +138,7 @@ function generateHTML(cssHash) {
   </section>
 ${sections}
 ${generateFooter('')}
+  ${analyticsScript}
 </body>
 </html>`;
 }
@@ -196,6 +198,7 @@ ${rows}
     </div>
   </main>
 ${generateFooter('../../')}
+  ${analyticsScript}
 </body>
 </html>`;
 }
